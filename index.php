@@ -18,5 +18,7 @@
         echo "Population of ".$city." is ".$citiesPop[$city]." people."; 
     }
 
-    getPop("Astana");
+    foreach ($citiesPop as $city => $pop) {
+        echo "<br>Population of ".$city." is ".$pop." people."; 
+    }
 ?>
