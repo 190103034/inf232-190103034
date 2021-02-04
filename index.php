@@ -1,3 +1,7 @@
 <?php
-    echo "Hello World!";
+    function printString($string) {
+        echo $string;
+    }
+
+    print("Hello World");
 ?>
