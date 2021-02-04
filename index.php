@@ -10,4 +10,6 @@
     }
 
     echo sum(5, 10);
+
+    $citiesPop = array("Astana" => 1136000, "Almaty" => 1916782, "Shymkent" => 1074167);
 ?>
